@@ -1,0 +1,7 @@
+/.cache
+/dist
+/node_modules
+app.js
+index.html
+package.json
+package-lock.json

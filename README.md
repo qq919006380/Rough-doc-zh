@@ -6,10 +6,10 @@
 npm install --save roughjs
 ```
 
-### 在parcel中引入
+### 引入
 
 ```
-import rough from "roughjs/dist/rough.umd";
+import rough from "roughjs";
 ```
 
 ### API
@@ -31,8 +31,3 @@ import rough from "roughjs/dist/rough.umd";
   - type：Number
 - bowing ————弯曲
 - 
-
-
-
-git remote add origin git@github.com:qq919006380/repo-name.git
-git remote add origin git@github.com:qq919006380/Rough-doc-zh.git
