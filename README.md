@@ -26,14 +26,16 @@ import rough from "roughjs";
 - draw (drawable) ———— 画
 
 ## Options 选项
-
+**边框**
 - roughness ———— 粗糙(type：Number)
 - bowing ————弯曲(type:Number)
 - stroke ———— 边框颜色(type:string)
 - strokeWidth ———— 边框粗细(type:Number)
+
+**内容**
 - fill ————填充的颜色(type:string)
 - fillStyle ————填充风格
-  - hachure ————影线
+  - hachure ————影线（默认）
   - solid ———— 实心
   - zigzag ———— Z字形的
   - cross-hatch ———— 交叉影线
@@ -46,6 +48,7 @@ import rough from "roughjs";
 - hachureAngle
     - 定义Hachure线角度的数值（以度为单位）。默认值为-41度。
 - hachureGap
+    - 线与线之间的距离
 - curveStepCount
 - simplification
 - dashOffset
